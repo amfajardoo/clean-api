@@ -21,7 +21,7 @@ bun dev
 > If you want to check db connection in pgadmin follow the next steps:
 
 1. Register new Server
-2. server name for localhost: ** host.docker.internal **
+2. server name for localhost: **host.docker.internal**
 
 # Prisma visualizer
 1. run bunx or npx prisma studio
