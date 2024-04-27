@@ -1,15 +1,30 @@
 # Elysia with Bun runtime
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+App made with Elysiajs, Prisma and Postresql
 
 ## Development
-To start the development server run:
+1- Define env variables in a .env
+2- Initialize Docker run: 
 ```bash
-bun run dev
+docker-compose up -d command
 ```
+3- run bunx or npx prisma migrate dev
+4- To start the development server run:
+```bash
+bun dev
+```
+
+> [!NOTE]
+> run ```bash docker-compose down``` after development done
+
+# PGAdmin
+> [!TIP]
+> If you want to check db connection in pgadmin follow the next steps:
+1- Register new Server
+2- server name for localhost: ** host.docker.internal **
+
+# Prisma visualizer
+1- run bunx or npx prisma studio
 
 Open http://localhost:3000/ with your browser to see the result.
